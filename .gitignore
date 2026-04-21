@@ -6,3 +6,12 @@
 /DeepMimic/
 /instance/
 /.env
+
+.env
+.env.local
+.flaskenv
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
