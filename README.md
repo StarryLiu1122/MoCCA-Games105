@@ -108,3 +108,7 @@ python task1_forward_kinematics.py
 研究方向：机器人具身智能
 
 最后更新日期: 2026年4月22日
+
+<center><b>⭐ Star us on GitHub if the repository helps your research!</b></center>
+
+<center>Made with ❤️ by Xingyun Liu</center>
