@@ -24,16 +24,16 @@
 
 ```text
 MoCCA-Games105/
-├── 📄 CharacterAnimation.pdf         # 课程核心参考资料
-├── 📂 Lecture slides/                # 课程讲义 (L01 - L13)
-│   ├── 01-02 Math Background         # 数学基础与引言
-│   ├── 03-06 Animation Tech          # 运动学、关键帧与数据驱动
-│   └── 07-13 Simulation & RL         # 物理仿真、强化学习与路径规划
-├── 📂 lab/                           #  课程 lab 1-4 题目
+├── 📂 lab/                           # lab 1-4 题目
+├── 📂 Lecture slides/                # PPT
+│   ├── 01-02 Math Background       
+│   ├── 03-06 Animation Tech        
+│   └── 07-13 Simulation & RL      
 ├── 📂 lab1/                          # 【实验一】角色运动学基础 (FK/IK实现)
 ├── 📂 lab2/                          # 【实验二】关键帧动画与插值算法
 ├── 📂 lab3/                          # 【实验三】数据驱动动画与运动匹配
-└── 📂 lab4/                          # 【实验四】物理仿真与动力学模拟
+├── 📂 lab4/                          # 【实验四】物理仿真与动力学模拟
+└── 📄 CharacterAnimation.pdf         # 课程核心参考资料
 ```
 
 ## 🧪 实验内容详述
@@ -87,11 +87,13 @@ python task1_forward_kinematics.py
 
 在学习与实验过程中，参考了以下优秀的资源与教材：
 
-- Games105 课程组： 诚挚感谢北京大学 MoCCA 实验室提供的实验框架与专业教学。
-
-- Rick Parent: Computer Animation: Algorithms and Techniques —— 提供了扎实的算法理论基础。
-
-- GAMES 平台： 感谢 GAMES 系列课程提供的学术交流平台。
+* **课程资源：**
+  * **Games105 课程组：** 诚挚感谢北京大学 MoCCA 课程组提供的实验框架与专业教学。
+  * **GAMES 平台：** 感谢 GAMES 系列课程提供的学术交流平台。
+  * **课程笔记引用：** 本仓库中的 `CharacterAnimation.pdf` 来源于开源项目 [foocker/CharacterAnimation](https://github.com/foocker/CharacterAnimation)。感谢原作者对课程知识点的系统整理。
+* **学术教材：**
+  * **Rick Parent:** *Computer Animation: Algorithms and Techniques* —— 提供了扎实的算法理论基础。
+  * **Ubisoft Technical Blog:** 关于 *Motion Matching* 工业级应用的深入分享。
 
 ## ⚖️ 许可与规范
 
