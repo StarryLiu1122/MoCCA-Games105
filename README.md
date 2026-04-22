@@ -86,7 +86,7 @@ MoCCA-Games105/
 
 ```bash
 # 创建并激活环境
-conda create -n games105 python=3.10
+conda create -n games105 python=3.8
 conda activate games105
 
 # 安装核心依赖
