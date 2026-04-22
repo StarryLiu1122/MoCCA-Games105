@@ -109,6 +109,11 @@ python task1_forward_kinematics.py
 
 最后更新日期: 2026年4月22日
 
-<center><b>⭐ Star us on GitHub if the repository helps your research!</b></center>
-<br>
-<center>Made with ❤️ by Xingyun Liu</center>
+## 
+<div align="center">
+
+**⭐ Star us on GitHub if the repository helps your research!**
+
+Made with ❤️ by Xingyun Liu
+
+</div>
