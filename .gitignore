@@ -11,6 +11,9 @@ exp.py
 
 /instance/
 
+*.zip
+*.7z
+*.rar
 
 .env
 .env.local
