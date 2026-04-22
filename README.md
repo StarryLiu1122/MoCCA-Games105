@@ -90,7 +90,7 @@ conda create -n games105 python=3.8
 conda activate games105
 
 # 安装核心依赖
-pip install numpy scipy matplotlib glfw PyOpenGL
+pip install numpy scipy matplotlib glfw PyOpenGL panda3d
 ```
 
 ### 2. 实验执行
