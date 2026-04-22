@@ -6,11 +6,14 @@
 
 > **北京大学《角色动画与物理仿真》课程 (Games105 / MoCCA) 实验与项目代码仓库**
 
+* **课程主页：** [https://games-105.github.io/](https://games-105.github.io/)
+* **官方 Codebase：** [GAMES-105 / GAMES-105](https://github.com/GAMES-105/GAMES-105)
+
 ---
 
 ## 📌 课程简介
 
-本仓库记录了在北京大学修读《角色动画与物理仿真》课程期间的学习成果。课程内容涵盖了从传统动画技术到前沿物理仿真及 AI 驱动动画的核心算法。
+本仓库记录了作者于25春季在北京大学修读《角色动画与物理仿真》课程期间的学习成果，包含课程的实验作业及学习资料。课程内容涵盖了从传统动画技术到前沿物理仿真及 AI 驱动动画的核心算法。
 
 **核心技术栈：**
 * **角色运动学：** FK/IK、雅可比矩阵、CCD 算法。
@@ -33,14 +36,14 @@ MoCCA-Games105/
 ├── 📂 lab2/                          # 【实验二】关键帧动画与插值算法
 ├── 📂 lab3/                          # 【实验三】数据驱动动画与运动匹配
 ├── 📂 lab4/                          # 【实验四】物理仿真与动力学模拟
-└── 📄 CharacterAnimation.pdf         # 课程核心参考资料
+└── 📄 CharacterAnimation.pdf         # 课程笔记
 ```
 
 ## 🧪 实验内容详述
 
 | 项目 | 主题 | 核心算法与任务 | 交付物 |
 | :--- | :--- | :--- | :--- |
-| **Lab 1** | **角色运动学基础** | 实现正向运动学 (FK) 与逆向运动学 (IK)；解析 BVH 动作文件；处理关节链层级变换。 | 💻 [代码](./lab1/2300012297_刘星云_Lab1.docx) |
+| **Lab 1** | **角色运动学基础** | 实现正向运动学 (FK) 与逆向运动学 (IK)；解析 BVH 动作文件；处理关节链层级变换。 | 💻 [代码](./lab1/2300012297_刘星云_lab1/) |
 | **Lab 2** | **关键帧动画与插值** | 实现线性插值 (LERP)、球面线性插值 (Slerp)；应用 Catmull-Rom 样条曲线进行平滑处理。 | 📄 [实验报告](./lab2/lab2实验报告_2300012297_刘星云.docx) |
 | **Lab 3** | **数据驱动动画** | 运动库检索与特征匹配；实现运动匹配 (Motion Matching) 技术；确保动作切换的自然性。 | 📄 [实验报告](./lab3/lab3实验报告_2300012297_刘星云.pdf) |
 | **Lab 4** | **物理仿真** | 刚体/柔体动力学模拟；质点弹簧系统 (Mass-Spring System)；实现高效的碰撞检测与响应。 | 📄 [实验报告](./lab4/lab4实验报告_2300012297_刘星云.docx) |
@@ -87,24 +90,25 @@ python task1_forward_kinematics.py
 
 在学习与实验过程中，参考了以下优秀的资源与教材：
 
-* **课程资源：**
-  * **Games105 课程组：** 诚挚感谢北京大学 MoCCA 课程组提供的实验框架与专业教学。
-  * **GAMES 平台：** 感谢 GAMES 系列课程提供的学术交流平台。
-  * **课程笔记引用：** 本仓库中的 `CharacterAnimation.pdf` 来源于开源项目 [foocker/CharacterAnimation](https://github.com/foocker/CharacterAnimation)。感谢原作者对课程知识点的系统整理。
+* **官方教学资源：**
+    * **GAMES-105 官方主页：** [https://games-105.github.io/](https://games-105.github.io/) —— 提供课程大纲与最新讲义。
+    * **官方实验框架：** [GAMES-105 Codebase](https://github.com/GAMES-105/GAMES-105) —— 本仓库的实验部分基于该官方框架进行二次开发。
+* **补充学习资料：**
+    * **课程笔记引用：** 本仓库中的 `CharacterAnimation.pdf` 来源于开源项目 [foocker/CharacterAnimation](https://github.com/foocker/CharacterAnimation)。感谢原作者对课程知识点的系统整理。
 * **学术教材：**
-  * **Rick Parent:** *Computer Animation: Algorithms and Techniques* —— 提供了扎实的算法理论基础。
-  * **Ubisoft Technical Blog:** 关于 *Motion Matching* 工业级应用的深入分享。
+    * **Rick Parent:** *Computer Animation: Algorithms and Techniques*。
+    * **Ubisoft:** 关于 *Motion Matching* 工业级应用的系列分享。
 
 ## ⚖️ 许可与规范
 
-1. 学术诚信： 本仓库的所有代码及实验报告仅供个人学习记录与学术交流使用。严禁北京大学或其他高校同学直接搬运本项目代码作为课程作业提交，请务必维护学术诚实。
-
-2. 版权声明： 课程讲义及实验原始框架的知识产权归 MoCCA 课程组 所有。
-   - 本项目中的具体算法实现、代码修改部分及实验报告文字归作者所有。
+1.  **学术诚信：** 本仓库的所有代码及报告仅供个人学习记录与学术交流使用。请后修同学切勿直接搬运代码提交，共同维护北京大学良好的学术氛围。
+2.  **版权声明：**
+    * **官方素材：** 课程讲义、官方实验框架及相关多媒体素材的版权归 **北京大学 MoCCA 课程组** 及 **GAMES-105 课程组** 所有。
+    * **第三方笔记：** `CharacterAnimation.pdf` 版权归其原作者所有。
+    * **原创实现：** 本仓库中由作者独立编写的算法实现、代码修改及实验报告文字版权归作者本人所有。
+3. **权利维护 (Take-down Policy)**：本仓库致力维护尊重原创的学术环境。若其中包含的某些素材（如第三方笔记、课件等）无意中侵犯了您的版权，请发送邮件至 **[i2793521817@outlook.com]**，我会在核实后第一时间进行删除或更正标注。
 
 ## 👤 联系作者
-
-作者： 刘星云 (Xingyun Liu)
 
 邮箱： i2793521817@outlook.com
 
