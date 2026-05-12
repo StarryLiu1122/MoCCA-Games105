@@ -32,11 +32,12 @@ MoCCA-Games105/
 │   ├── 01-02 Math Background       
 │   ├── 03-06 Animation Tech        
 │   └── 07-13 Simulation & RL      
-├── 📂 lab1/                          # 【实验一】角色运动学基础 (FK/IK实现)
-├── 📂 lab2/                          # 【实验二】关键帧动画与插值算法
-├── 📂 lab3/                          # 【实验三】数据驱动动画与运动匹配
-├── 📂 lab4/                          # 【实验四】物理仿真与动力学模拟
-└── 📄 CharacterAnimation.pdf         # 课程笔记
+├── 📂 lab1/                          #【lab1实现】角色运动学基础 (FK/IK实现)
+├── 📂 lab2/                          #【lab2实现】关键帧动画与插值算法
+├── 📂 lab3/                          #【lab3实现】数据驱动动画与运动匹配
+├── 📂 lab4/                          #【lab4实现】物理仿真与动力学模拟
+├── 📄 CharacterAnimation.pdf         # 课程笔记
+└── 📄 README for FinalProject.pdf    # 期末项目说明
 ```
 
 ## 🧪 实验内容详述
